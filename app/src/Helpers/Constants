@@ -1,0 +1,11 @@
+class Constants {
+  // PAGES
+  BASE_PAGE = "http://localhost:3000"; // http://crm.i-luxus.net // http://localhost:3000
+  page_home = "/home";
+
+  // API URLS
+  BASE_URL = "http://localhost:8000"; // http://api.crm.i-luxus.net // http://localhost:8000
+}
+
+const constants = new Constants();
+export default constants;
